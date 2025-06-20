@@ -10,6 +10,8 @@ def test_multiply():
     assert mul(5,5) == 25
 
 def test_rest():
-    assert rest(5, 10) == 5
+    assert rest(10, 5) == 5
 
 test_multiply()
+test_add()
+test_rest()
